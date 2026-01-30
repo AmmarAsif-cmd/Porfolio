@@ -10,7 +10,11 @@ import type { Project, Category } from '../../data/portfolio';
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
     <Card className={styles.projectCard} hover>
         <div className={styles.imagePlaceholder}>
-            {/* Placeholder for project screenshot */}
+            {project.image ? (
+                <img src={project.image} alt={project.title} />
+            ) : (
+                <div style={{ width: '100%', height: '100%', background: 'linear-gradient(45deg, #1e1b4b, #312e81)' }}></div>
+            )}
             <div className={styles.overlay}></div>
         </div>
         <div className={styles.cardContent}>

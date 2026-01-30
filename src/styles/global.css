@@ -1,6 +1,5 @@
 @import './variables.css';
 
-/* Reset */
 *,
 *::before,
 *::after {
@@ -12,85 +11,58 @@
 html {
     font-family: var(--font-body);
     font-size: 16px;
-    line-height: 1.5;
     color: var(--color-text);
     background-color: var(--color-bg);
     scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background: var(--gradient-bg);
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 /* Typography */
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
     font-family: var(--font-heading);
-    font-weight: 600;
-    line-height: 1.2;
     color: var(--color-text);
-    margin-bottom: var(--space-4);
+    font-weight: 700;
     letter-spacing: -0.02em;
 }
 
 h1 {
-    font-size: 3.5rem;
-    letter-spacing: -0.03em;
+    font-size: 4rem;
+    line-height: 1.1;
 }
 
 h2 {
     font-size: 2.5rem;
+    margin-bottom: var(--space-8);
 }
 
 h3 {
-    font-size: 1.75rem;
-}
-
-h4 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    margin-bottom: var(--space-2);
 }
 
 p {
-    margin-bottom: var(--space-4);
     color: var(--color-text-secondary);
-    line-height: 1.7;
+    line-height: 1.6;
+    margin-bottom: var(--space-4);
 }
 
 a {
-    color: var(--color-accent);
+    color: var(--color-primary);
     text-decoration: none;
     transition: color var(--transition-fast);
 }
 
-a:hover {
-    text-decoration: none;
-    color: var(--color-accent-hover);
-}
-
-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-}
-
-button {
-    cursor: pointer;
-    font-family: inherit;
-    border: none;
-    background: none;
-}
-
-/* Utilities */
+/* Utility Classes */
 .container {
-    width: 100%;
     max-width: var(--container-width);
     margin: 0 auto;
     padding: 0 var(--container-padding);
@@ -100,25 +72,20 @@ button {
     padding: var(--space-20) 0;
 }
 
-.grid {
-    display: grid;
-    gap: var(--space-6);
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
 }
 
-.text-gradient {
-    background: linear-gradient(135deg, var(--color-text) 0%, var(--color-text-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+::-webkit-scrollbar-track {
+    background: var(--color-bg);
 }
 
-.mb-4 {
-    margin-bottom: var(--space-4);
+::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 4px;
 }
 
-.mb-8 {
-    margin-bottom: var(--space-8);
-}
-
-.mb-12 {
-    margin-bottom: var(--space-12);
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-tertiary);
 }
