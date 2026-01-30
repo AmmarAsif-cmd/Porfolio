@@ -1,0 +1,58 @@
+.skillsSection {
+    background-color: var(--color-surface);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-12);
+}
+
+.techGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+}
+
+.techItem {
+    padding: var(--space-4);
+    background-color: var(--color-bg);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.techItem:hover {
+    background-color: var(--color-accent);
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
+.softGrid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+}
+
+.softItem {
+    padding-left: var(--space-4);
+    border-left: 2px solid var(--color-accent);
+}
+
+.softName {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-1);
+}
+
+.softDesc {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-12);
+    }
+}

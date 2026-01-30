@@ -1,0 +1,125 @@
+.projectsSection {
+    background-color: var(--color-surface);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--space-12);
+}
+
+.filterTabs {
+    display: flex;
+    gap: var(--space-4);
+    overflow-x: auto;
+    padding-bottom: var(--space-2);
+    width: 100%;
+    justify-content: center;
+}
+
+.tab {
+    font-size: 1rem;
+    padding: var(--space-2) var(--space-4);
+    color: var(--color-text-secondary);
+    border-bottom: 2px solid transparent;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.tab:hover {
+    color: var(--color-text);
+}
+
+.activeTab {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: var(--space-8);
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    /* Remove default padding to let image bleed */
+    overflow: hidden;
+    background-color: var(--color-bg);
+    border-color: var(--color-border);
+}
+
+.imagePlaceholder {
+    height: 200px;
+    background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-hover) 100%);
+    position: relative;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.cardContent {
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.projectHeader {
+    margin-bottom: var(--space-4);
+}
+
+.category {
+    font-size: 0.75rem;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    display: block;
+    margin-bottom: var(--space-2);
+}
+
+.projectTitle {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.overview {
+    margin-bottom: var(--space-6);
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-6);
+}
+
+.techTag {
+    font-size: 0.75rem;
+    padding: var(--space-1) var(--space-2);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-text-secondary);
+}
+
+.links {
+    display: flex;
+    gap: var(--space-4);
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filterTabs {
+        justify-content: flex-start;
+    }
+}

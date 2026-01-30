@@ -1,0 +1,55 @@
+.educationSection {
+    background-color: var(--color-surface);
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8);
+    border-left: 2px solid var(--color-border);
+    padding-left: var(--space-8);
+    margin-left: var(--space-4);
+}
+
+.timelineItem {
+    position: relative;
+}
+
+.timelineItem::before {
+    content: '';
+    position: absolute;
+    left: calc(var(--space-8) * -1 - 6px);
+    /* Align with border center (2px / 2 = 1px + padding 32px + dot radius 5px) */
+    /* Actually precise calculation: padding-left is 32px. Border width is 2px. Left is -32px - 1px (half border). */
+    left: -37px;
+    /* 32 + 5 */
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    border: 2px solid var(--color-surface);
+}
+
+.year {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: var(--space-2);
+}
+
+.degree {
+    font-size: 1.5rem;
+    margin-bottom: var(--space-1);
+}
+
+.institution {
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    font-weight: 400;
+    margin-bottom: var(--space-4);
+}
+
+.details {
+    margin-bottom: 0;
+}

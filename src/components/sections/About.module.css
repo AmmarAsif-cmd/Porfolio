@@ -1,0 +1,30 @@
+.aboutSection {
+    background-color: var(--color-bg);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--space-8);
+}
+
+.titleColumn {
+    position: relative;
+}
+
+.contentColumn {
+    padding-top: var(--space-4);
+}
+
+.paragraph {
+    font-size: 1.125rem;
+    margin-bottom: var(--space-6);
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-4);
+    }
+}
