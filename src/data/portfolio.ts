@@ -140,6 +140,7 @@ export const portfolioData = {
             ],
             techStack: ["Python", "Django", "OpenCV", "MXNet", "GluonCV"],
             image: "/illusion-of-wearing.jpg",
+            github: "https://github.com/AmmarAsif-cmd/Illusion-of-wearing",
             featured: true,
         },
         {
@@ -159,6 +160,7 @@ export const portfolioData = {
             ],
             techStack: ["Secondary Research", "Data Analysis", "AI Ethics", "Cybersecurity Protocols"],
             image: "",
+            link: "https://www.researchgate.net/publication/394524789_Examining_the_Effectiveness_of_AI-based_incident_response_strategies_in_mitigating_cyber-attacks",
             featured: true,
         },
         {
