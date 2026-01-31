@@ -124,7 +124,7 @@ export const portfolioData = {
                 "Building serverless functions for cost-effective event processing.",
             ],
             techStack: ["Node.js", "Shopify API", "JavaScript", "Express"],
-            image: "",
+            image: "/automated-tag.png",
             github: "https://github.com/AmmarAsif-cmd/Automated-Tag-Generater-For-Shopify-Orders",
             featured: false,
         },
