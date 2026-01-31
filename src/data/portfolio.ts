@@ -1,4 +1,4 @@
-export type Category = 'All' | 'WordPress' | 'Shopify' | 'SaaS' | 'Research' | 'Tools';
+export type Category = 'All' | 'WordPress' | 'Shopify' | 'SaaS' | 'Research' | 'Tools & Apps';
 
 export interface Project {
     id: string;
@@ -106,12 +106,13 @@ export const portfolioData = {
             ],
             techStack: ["React", "TypeScript", "D3.js", "Recoil"],
             image: "/datatales.png",
+            link: "https://datatales.co.uk/",
             featured: true,
         },
         {
             id: "automated-tag",
             title: "AutomatedTag for Shopify",
-            category: "Tools",
+            category: "Tools & Apps",
             overview: "A specialized Shopify app that automatically tags orders based on specific verification criteria (OTP verification) to streamline fulfillment workflows.",
             problem: "Shopify merchants needed a way to flag high-risk or verified orders instantly without manual review. This app automates that process using webhooks.",
             role: ["Backend Developer"],
