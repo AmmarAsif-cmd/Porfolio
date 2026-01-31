@@ -197,7 +197,7 @@ export const portfolioData = {
             challenges: ["Optimizing Liquid code for sub-2s load times.", "Building custom drag-and-drop sections for marketing teams."],
             learnings: ["Advanced Liquid performance techniques.", "Mobile-first UX design patterns for fashion retail."],
             techStack: ["Shopify Plus", "Liquid", "SCSS", "JavaScript"],
-            image: "",
+            image: "/www.limelight.pk_.png",
             link: "https://limelight.pk",
         },
         {
@@ -210,7 +210,7 @@ export const portfolioData = {
             challenges: ["Restructuring complex mega-menus.", "Creating dynamic product templates handling multiple variants."],
             learnings: ["Shopify 2.0 architecture.", "Complex navigation data structures."],
             techStack: ["Shopify", "Liquid", "jQuery"],
-            image: "",
+            image: "/bonanzasatrangi.com_.png",
             link: "https://bonanzasatrangi.com",
         },
         {
@@ -223,7 +223,7 @@ export const portfolioData = {
             challenges: ["Building a custom filtering engine.", "Handling complex product variant logic on the frontend."],
             learnings: ["Advanced JavaScript state management in Shopify.", "Facet filtering logic."],
             techStack: ["Shopify", "JavaScript", "AJAX"],
-            image: "",
+            image: "/interwood.pk_.png",
             link: "https://interwood.pk",
         },
         {
@@ -236,7 +236,7 @@ export const portfolioData = {
             challenges: ["Refactoring legacy codebase without breaking live site.", "Standardizing UI components across the store."],
             learnings: ["Legacy code maintainability.", "Regression testing strategies."],
             techStack: ["Shopify", "Liquid", "CSS"],
-            image: "",
+            image: "/uk.zarashahjahan.com_.png",
             link: "https://zarashahjahan.com",
         },
         {
@@ -249,7 +249,7 @@ export const portfolioData = {
             challenges: ["Implementing lazy loading and critical CSS.", "Optimizing heavy image assets on the fly."],
             learnings: ["Core Web Vitals optimization.", "Browser rendering pipelines."],
             techStack: ["Shopify", "Liquid", "JS"],
-            image: "",
+            image: "/www.mariab.ae_.png",
             link: "https://mariab.pk",
         },
         {
@@ -262,7 +262,7 @@ export const portfolioData = {
             challenges: ["Translating a complex design system into a Shopify Theme.", "Improving filter UX/UI."],
             learnings: ["Design system implementation.", "User interface micro-interactions."],
             techStack: ["Shopify", "SCSS", "Liquid"],
-            image: "",
+            image: "/us.alkaramstudio.com_.png",
             link: "https://alkaramstudio.com",
         },
         {
@@ -275,7 +275,7 @@ export const portfolioData = {
             challenges: ["Creating flexible campaign templates.", "Ensuring PDPs highlighted fabric details effectively."],
             learnings: ["Modular theme architecture.", "High-fidelity UI implementation."],
             techStack: ["Shopify", "Liquid", "HTML/CSS"],
-            image: "",
+            image: "/image1993.png",
             link: "https://image1993.com",
         },
         {
@@ -288,7 +288,7 @@ export const portfolioData = {
             challenges: ["Debugging mobile-specific layout shifts.", "Rapidly deploying seasonal UI updates."],
             learnings: ["Mobile responsive design patterns.", "Cross-device testing."],
             techStack: ["Shopify", "Liquid", "CSS"],
-            image: "",
+            image: "/us.republicwomenswear.com_.png",
             link: "https://republicwomenswear.com",
         },
         {
@@ -301,7 +301,7 @@ export const portfolioData = {
             challenges: ["Auditing and removing unused apps/scripts.", "Refining typography and spacing."],
             learnings: ["Codebase hygiene.", "Typography hierarchy in web design."],
             techStack: ["Shopify", "Liquid"],
-            image: "",
+            image: "/mohtaram.com_en-pk.png",
             link: "https://mohtaram.com",
         },
         {
@@ -314,7 +314,7 @@ export const portfolioData = {
             challenges: ["Configuring advanced shipping profiles.", "Fixing cart drawer logic glitches."],
             learnings: ["Shopify shipping settings.", "Cart API manipulation."],
             techStack: ["Shopify", "Liquid", "JS"],
-            image: "",
+            image: "/www.onetoystore.com_.png",
             link: "https://onetoystore.com",
         },
         {
@@ -327,7 +327,7 @@ export const portfolioData = {
             challenges: ["Optimizing mega-menu for mobile touch gestures.", "Integrating 3rd party logistics for automated fulfillment."],
             learnings: ["Mobile UX best practices.", "ERP integration patterns."],
             techStack: ["Shopify Plus", "Liquid", "JavaScript"],
-            image: "",
+            image: "/sanasafinaz.com_.png",
             link: "https://www.sanasafinaz.com/pk/",
         },
     ] as Project[],
