@@ -191,7 +191,7 @@ export const portfolioData = {
             challenges: ["Building a custom recruitment module.", "Interactive UI for service showcases."],
             learnings: ["WP Job Manager integration.", "Dynamic frontend routing."],
             techStack: ["WordPress", "React", "PHP"],
-            image: "",
+            image: "/www.shopdev.co_.png",
             link: "https://shopdev.co/",
         },
         {
@@ -204,7 +204,7 @@ export const portfolioData = {
             challenges: ["HubSpot integration with WP forms.", "Speed optimization for PPC landing pages."],
             learnings: ["Marketing tech stack integration.", "Conversion Rate Optimization (CRO)."],
             techStack: ["WordPress", "Elementor", "PHP"],
-            image: "",
+            image: "/www.xstak.com_.png",
             link: "https://www.xstak.com/",
         },
         {
@@ -217,7 +217,7 @@ export const portfolioData = {
             challenges: ["Handling 5000+ SKU database queries.", "Visualizing tile textures effectively."],
             learnings: ["WooCommerce product data schema.", "AJAX filtering optimization."],
             techStack: ["WordPress", "WooCommerce", "jQuery"],
-            image: "",
+            image: "/mastertiles.com_.png",
             link: "https://mastertiles.com/",
         },
         {
@@ -230,7 +230,7 @@ export const portfolioData = {
             challenges: ["Styling consistency with the main e-com store.", "SEO markup automation."],
             learnings: ["Headless CMS concepts.", "SEO best practices."],
             techStack: ["WordPress", "PHP", "CSS"],
-            image: "",
+            image: "/www.glamnetic.com_.png",
             link: "https://glamnetic.com/",
         },
         {
@@ -256,7 +256,7 @@ export const portfolioData = {
             challenges: ["Integrating LMS plugins (turning WP into a learning platform).", "Video piracy protection."],
             learnings: ["LMS architecture.", "Membership site security."],
             techStack: ["WordPress", "LearnDash", "PHP"],
-            image: "",
+            image: "/boomingbulls.com_.png",
             link: "https://boomingbulls.com/",
         },
         {
@@ -269,7 +269,7 @@ export const portfolioData = {
             challenges: ["Pixel-perfect implementation of Figma designs.", "Custom animations on scroll."],
             learnings: ["GSAP integration in WordPress.", "Advanced CSS layouts."],
             techStack: ["WordPress", "GSAP", "SCSS"],
-            image: "",
+            image: "/cananaeg.com_.png",
             link: "https://cananaeg.com/",
         },
         {
@@ -282,7 +282,7 @@ export const portfolioData = {
             challenges: ["Custom shipping zones and rate tables.", "Vendor dashboard customization."],
             learnings: ["Marketplace plugins (Dokan/WCFM).", "Logistics API integration."],
             techStack: ["WordPress", "WooCommerce", "PHP"],
-            image: "",
+            image: "/furniturehub.pk_.png",
             link: "https://furniturehub.pk/",
         },
         {
@@ -440,6 +440,19 @@ export const portfolioData = {
             techStack: ["Shopify Plus", "Liquid", "JavaScript"],
             image: "/sanasafinaz.com_.png",
             link: "https://www.sanasafinaz.com/pk/",
+        },
+        {
+            id: "nora-interiors",
+            title: "Nora Interiors",
+            category: "Shopify",
+            overview: "End-to-end design and development by my team. Built a bespoke interior design store with a focus on visual storytelling.",
+            problem: "The brand needed a unique, high-end digital presence to showcase their curated furniture collections.",
+            role: ["Lead Developer", "Agency Team Lead"],
+            challenges: ["Implementing high-resolution image galleries without compromising speed.", "Custom shipping logic for furniture dimensions."],
+            learnings: ["Visual-first e-commerce design.", "Performance optimization for media-rich sites."],
+            techStack: ["Shopify", "Liquid", "JavaScript"],
+            image: "/norainteriors.com_.png",
+            link: "https://norainteriors.com/",
         },
     ] as Project[],
     skills: {
