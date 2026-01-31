@@ -317,6 +317,19 @@ export const portfolioData = {
             image: "",
             link: "https://onetoystore.com",
         },
+        {
+            id: "sana-safinaz",
+            title: "Sana Safinaz",
+            category: "Shopify",
+            overview: "Iconic luxury fashion house. Delivered a seamless mobile-first shopping experience and optimized checkout flows.",
+            problem: "High bounce rates on mobile due to complex navigation and slow collection rendering for their massive catalog.",
+            role: ["Shopify Developer"],
+            challenges: ["Optimizing mega-menu for mobile touch gestures.", "Integrating 3rd party logistics for automated fulfillment."],
+            learnings: ["Mobile UX best practices.", "ERP integration patterns."],
+            techStack: ["Shopify Plus", "Liquid", "JavaScript"],
+            image: "",
+            link: "https://www.sanasafinaz.com/pk/",
+        },
     ] as Project[],
     skills: {
         technical: [
