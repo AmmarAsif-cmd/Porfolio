@@ -454,6 +454,19 @@ export const portfolioData = {
             image: "/norainteriors.com_.png",
             link: "https://norainteriors.com/",
         },
+        {
+            id: "aim-fit",
+            title: "AimFit",
+            category: "Tools & Apps",
+            overview: "Pakistan's #1 fitness platform for women. Connected web and mobile ecosystem for home workouts.",
+            problem: "Needed a scalable digital infrastructure to deliver high-quality video workouts to thousands of concurrent users.",
+            role: ["Full Stack Developer"],
+            challenges: ["Optimizing video streaming latency.", "Real-time progress tracking across devices."],
+            learnings: ["Health-tech data privacy.", "Video streaming architecture."],
+            techStack: ["React", "Node.js", "AWS"],
+            image: "/www.aim-fit.com_.png",
+            link: "https://www.aim-fit.com/",
+        },
     ] as Project[],
     skills: {
         technical: [
