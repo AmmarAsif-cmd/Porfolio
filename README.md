@@ -52,4 +52,3 @@ This command builds the project and pushes the `dist` folder to the `gh-pages` b
 - **Email:** ammarasif550@gmail.com
 - **LinkedIn:** [Ammar Asif](https://www.linkedin.com/in/ammar-asif-30017712a/)
 - **GitHub:** [@AmmarAsif-cmd](https://github.com/AmmarAsif-cmd)
-- **Phone:** +44 7723 278674

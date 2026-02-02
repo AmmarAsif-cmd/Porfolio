@@ -489,6 +489,5 @@ export const portfolioData = {
         email: "ammarasif550@gmail.com",
         linkedin: "https://www.linkedin.com/in/ammar-asif-30017712a/",
         github: "https://github.com/AmmarAsif-cmd",
-        phone: "+447723278674",
     }
 };
