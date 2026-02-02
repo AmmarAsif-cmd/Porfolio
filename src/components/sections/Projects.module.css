@@ -71,8 +71,8 @@
 /* Grid Layout */
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* 3 Columns on Desktop */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 Columns on Desktop */
     gap: var(--space-8);
 }
 
