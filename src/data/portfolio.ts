@@ -1,4 +1,4 @@
-export type Category = 'All' | 'WordPress' | 'Shopify' | 'SaaS' | 'Research' | 'Tools & Apps';
+export type Category = 'All' | 'WordPress' | 'Shopify' | 'Webflow' | 'SaaS' | 'Research' | 'Tools & Apps';
 
 export interface Project {
     id: string;
@@ -169,23 +169,11 @@ export const portfolioData = {
             link: "https://www.researchgate.net/publication/394524789_Examining_the_Effectiveness_of_AI-based_incident_response_strategies_in_mitigating_cyber-attacks",
             featured: true,
         },
-        {
-            id: "shopistan",
-            title: "Shopistan",
-            category: "WordPress",
-            overview: "Leading e-commerce solutions provider. Developed corporate identity and integrated client service portals.",
-            problem: "Required a professional, scalable presence to showcase enterprise retail tech capabilities.",
-            role: ["WordPress Developer"],
-            challenges: ["Custom post types for portfolio casing.", "Performance optimization for global assets."],
-            learnings: ["B2B agency site architecture.", "Advanced Custom Fields (ACF) mastery."],
-            techStack: ["WordPress", "PHP", "Bootstrap"],
-            image: "",
-            link: "https://www.shopistan.pk",
-        },
+
         {
             id: "shopdev",
             title: "ShopDev",
-            category: "WordPress",
+            category: "Webflow",
             overview: "Software development agency portfolio. Built a dynamic career portal and case study engine.",
             problem: "Needed a way to rapidly publish case studies and handle job applications within the WP dashboard.",
             role: ["Frontend Developer"],
@@ -198,7 +186,7 @@ export const portfolioData = {
         {
             id: "xstak",
             title: "XStak",
-            category: "WordPress",
+            category: "Webflow",
             overview: "Retail Operating System product site. Focused on conversion optimization and lead generation.",
             problem: "Marketing team needed flexible landing page templates compatible with their CRM.",
             role: ["Web Developer"],
@@ -234,19 +222,7 @@ export const portfolioData = {
             image: "/www.glamnetic.com_.png",
             link: "https://glamnetic.com/",
         },
-        {
-            id: "casinoscout",
-            title: "Casino Scout",
-            category: "WordPress",
-            overview: "Affiliate and review portal. Implemented strict geo-targeting and compliance features.",
-            problem: "Compliance with regional regulations required dynamic content display based on user location.",
-            role: ["Backend Developer"],
-            challenges: ["GeoIP integration for content restriction.", "Affiliate link tracking management."],
-            learnings: ["Internationalization (i18n).", "Compliance-first development."],
-            techStack: ["WordPress", "PHP", "MySQL"],
-            image: "",
-            link: "https://casinoscout.nl",
-        },
+
         {
             id: "booming-bulls",
             title: "Booming Bulls",
@@ -286,19 +262,7 @@ export const portfolioData = {
             image: "/furniturehub.pk_.png",
             link: "https://furniturehub.pk/",
         },
-        {
-            id: "edge-corporation",
-            title: "Edge Corporation",
-            category: "WordPress",
-            overview: "Corporate business portfolio. sleek, professional, and fast-loading.",
-            problem: "Old site was slow and vulnerable. Rebuilt for security and speed.",
-            role: ["Web Developer"],
-            challenges: ["Security hardening against brute force.", "Page speed optimization (90+ Google PSI)."],
-            learnings: ["Web security standards.", "Server-side optimization."],
-            techStack: ["WordPress", "PHP", "Nginx"],
-            image: "",
-            link: "https://edgecorporation.co/",
-        },
+
         {
             id: "limelight",
             title: "Limelight",
@@ -454,6 +418,45 @@ export const portfolioData = {
             techStack: ["WordPress", "WooCommerce", "PHP"],
             image: "/norainteriors.com_.png",
             link: "https://norainteriors.com/",
+        },
+        {
+            id: "shopistan",
+            title: "Shopistan",
+            category: "WordPress",
+            overview: "Leading e-commerce solutions provider. Developed corporate identity and integrated client service portals.",
+            problem: "Required a professional, scalable presence to showcase enterprise retail tech capabilities.",
+            role: ["WordPress Developer"],
+            challenges: ["Custom post types for portfolio casing.", "Performance optimization for global assets."],
+            learnings: ["B2B agency site architecture.", "Advanced Custom Fields (ACF) mastery."],
+            techStack: ["WordPress", "PHP", "Bootstrap"],
+            image: "",
+            link: "https://www.shopistan.pk",
+        },
+        {
+            id: "casinoscout",
+            title: "Casino Scout",
+            category: "WordPress",
+            overview: "Affiliate and review portal. Implemented strict geo-targeting and compliance features.",
+            problem: "Compliance with regional regulations required dynamic content display based on user location.",
+            role: ["Backend Developer"],
+            challenges: ["GeoIP integration for content restriction.", "Affiliate link tracking management."],
+            learnings: ["Internationalization (i18n).", "Compliance-first development."],
+            techStack: ["WordPress", "PHP", "MySQL"],
+            image: "",
+            link: "https://casinoscout.nl",
+        },
+        {
+            id: "edge-corporation",
+            title: "Edge Corporation",
+            category: "WordPress",
+            overview: "Corporate business portfolio. sleek, professional, and fast-loading.",
+            problem: "Old site was slow and vulnerable. Rebuilt for security and speed.",
+            role: ["Web Developer"],
+            challenges: ["Security hardening against brute force.", "Page speed optimization (90+ Google PSI)."],
+            learnings: ["Web security standards.", "Server-side optimization."],
+            techStack: ["WordPress", "PHP", "Nginx"],
+            image: "",
+            link: "https://edgecorporation.co/",
         },
         {
             id: "aim-fit",

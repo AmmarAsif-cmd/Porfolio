@@ -78,7 +78,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
     );
 };
 
-const CATEGORIES: Category[] = ['All', 'WordPress', 'Shopify', 'SaaS', 'Research', 'Tools & Apps'];
+const CATEGORIES: Category[] = ['All', 'WordPress', 'Shopify', 'Webflow', 'SaaS', 'Research', 'Tools & Apps'];
 
 const Projects: React.FC = () => {
     const [activeCategory, setActiveCategory] = useState<Category>('All');
