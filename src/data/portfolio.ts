@@ -221,7 +221,19 @@ export const portfolioData = {
             image: "/www.glamnetic.com_.png",
             link: "https://glamnetic.com/",
         },
-
+        {
+            id: "nora-interiors",
+            title: "Nora Interiors",
+            category: "WordPress",
+            overview: "End-to-end design and development by my team. Built a bespoke interior design store with a focus on visual storytelling.",
+            problem: "The brand needed a unique, high-end digital presence to showcase their curated furniture collections.",
+            role: ["Lead Developer", "Agency Team Lead"],
+            challenges: ["Implementing high-resolution image galleries without compromising speed.", "Custom shipping logic for furniture dimensions."],
+            learnings: ["Visual-first e-commerce design.", "Performance optimization for media-rich sites."],
+            techStack: ["WordPress", "WooCommerce", "PHP"],
+            image: "/norainteriors.com_.png",
+            link: "https://norainteriors.com/",
+        },
         {
             id: "booming-bulls",
             title: "Booming Bulls",
@@ -406,19 +418,6 @@ export const portfolioData = {
             link: "https://www.sanasafinaz.com/pk/",
         },
         {
-            id: "nora-interiors",
-            title: "Nora Interiors",
-            category: "WordPress",
-            overview: "End-to-end design and development by my team. Built a bespoke interior design store with a focus on visual storytelling.",
-            problem: "The brand needed a unique, high-end digital presence to showcase their curated furniture collections.",
-            role: ["Lead Developer", "Agency Team Lead"],
-            challenges: ["Implementing high-resolution image galleries without compromising speed.", "Custom shipping logic for furniture dimensions."],
-            learnings: ["Visual-first e-commerce design.", "Performance optimization for media-rich sites."],
-            techStack: ["WordPress", "WooCommerce", "PHP"],
-            image: "/norainteriors.com_.png",
-            link: "https://norainteriors.com/",
-        },
-        {
             id: "shopistan",
             title: "Shopistan",
             category: "WordPress",
@@ -430,19 +429,6 @@ export const portfolioData = {
             techStack: ["WordPress", "PHP", "Bootstrap"],
             image: "",
             link: "https://www.shopistan.pk",
-        },
-        {
-            id: "casinoscout",
-            title: "Casino Scout",
-            category: "WordPress",
-            overview: "Affiliate and review portal. Implemented strict geo-targeting and compliance features.",
-            problem: "Compliance with regional regulations required dynamic content display based on user location.",
-            role: ["Backend Developer"],
-            challenges: ["GeoIP integration for content restriction.", "Affiliate link tracking management."],
-            learnings: ["Internationalization (i18n).", "Compliance-first development."],
-            techStack: ["WordPress", "PHP", "MySQL"],
-            image: "",
-            link: "https://casinoscout.nl",
         },
         {
             id: "edge-corporation",
@@ -500,8 +486,9 @@ export const portfolioData = {
         },
     ] as Education[],
     contact: {
-        email: "ammarasif@example.com",
-        linkedin: "https://linkedin.com/in/ammarasif",
-        github: "https://github.com/ammarasif",
+        email: "ammarasif550@gmail.com",
+        linkedin: "https://www.linkedin.com/in/ammar-asif-30017712a/",
+        github: "https://github.com/AmmarAsif-cmd",
+        phone: "+447723278674",
     }
 };

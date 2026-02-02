@@ -16,6 +16,9 @@ const Footer: React.FC = () => {
                         <Button href={`mailto:${contact.email}`} variant="primary">
                             Email Me
                         </Button>
+                        <Button href={`tel:${contact.phone}`} variant="outline">
+                            Call
+                        </Button>
                         <Button href={contact.linkedin} variant="outline">
                             LinkedIn
                         </Button>
