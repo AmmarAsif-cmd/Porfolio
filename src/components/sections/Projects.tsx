@@ -85,7 +85,15 @@ const Projects: React.FC = () => {
 
     const filteredProjects = portfolioData.projects.filter(
         (project) => activeCategory === 'All' || project.category === activeCategory
-    );
+    ).sort((a, b) => {
+        if (activeCategory === 'All') {
+            // Sort based on the order of CATEGORIES array
+            // Skip 'All' (index 0), so we use the index directly or adjust if needed.
+            // CATEGORIES = ['All', 'WordPress', 'Shopify', 'SaaS', 'Research', 'Tools & Apps']
+            return CATEGORIES.indexOf(a.category) - CATEGORIES.indexOf(b.category);
+        }
+        return 0; // Maintain original order for specific categories
+    });
 
     return (
         <Section id="projects" className={styles.projectsSection}>

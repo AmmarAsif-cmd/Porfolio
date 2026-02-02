@@ -7,11 +7,11 @@
 
 /* Custom Wide Container for Projects */
 .wideContainer {
-    max-width: 1400px;
-    /* Wider than standard 1200px */
+    max-width: 100%;
+    /* Full width */
     margin: 0 auto;
-    padding: 0 var(--space-6);
-    /* Reduced side padding */
+    padding: 0 var(--space-8);
+    /* Increased side padding for full width */
     width: 100%;
 }
 
@@ -71,8 +71,8 @@
 /* Grid Layout */
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* 2 Columns on Desktop */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 Columns on Desktop */
     gap: var(--space-8);
 }
 
@@ -101,8 +101,8 @@
 
 /* Screenshot Preview - 'Browser Viewport' */
 .imageWindow {
-    height: 300px;
-    /* Fixed height viewport */
+    height: 400px;
+    /* Highlighted / Taller */
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -126,8 +126,8 @@
 
 /* Hover Scroll Effect */
 .projectCard:hover .imageWindow img {
-    transform: translateY(calc(-100% + 300px));
-    /* Scroll to bottom */
+    transform: translateY(calc(-100% + 400px));
+    /* Scroll to bottom (adjusted for new height) */
     transition-duration: 8s;
     /* Slower scroll for better visibility */
 }
