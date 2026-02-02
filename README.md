@@ -2,7 +2,7 @@
 
 Frontend-focused web developer specializing in building scalable, user-centric applications. This portfolio showcases my work across **WordPress**, **Shopify**, **React**, and **custom web solutions**.
 
-🚀 **[View Live Portfolio](https://ammarasif-cmd.github.io/Portfolio/)**
+🚀 **[View Live Portfolio](https://ammarasif-cmd.github.io/Porfolio/)**
 
 ---
 
