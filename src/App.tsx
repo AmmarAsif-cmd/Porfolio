@@ -13,10 +13,10 @@ function App() {
     <main>
       <Hero />
       <About />
+      <Education />
       <Projects />
       <Skills />
       <Learning />
-      <Education />
       <WorkingStyle />
       <Footer />
     </main>

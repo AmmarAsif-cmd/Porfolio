@@ -44,9 +44,8 @@ export const portfolioData = {
     about: {
         title: "About Me",
         story: [
-            "My journey started with a BSc in Computer Science, where I built a strong foundation in software engineering principles. But I didn't want to just write code; I wanted to build intelligent systems. This led me to pursue an MSc in Artificial Intelligence & Data Analytics.",
-            "I've always been curiosity-driven. Whether it's building a complex POS system from scratch or analyzing trends with AI, I learn by doing. I believe in taking ownership of problems and delivering end-to-end solutions.",
-            "For me, technology is a tool to solve real-world problems. I focus on building systems that are not just functional, but also robust, scalable, and user-centric.",
+            "I’m a frontend-focused web developer with experience across WordPress, Shopify, and custom web projects. I’ve worked on e-commerce platforms, content-driven websites, and product interfaces, focusing on clean structure, responsive layouts, and maintainable builds.",
+            "I value clarity, consistency, and thoughtful execution. I work well with defined direction, communicate clearly, and aim to deliver work that feels complete and dependable across devices and use cases.",
         ],
     },
     projects: [
