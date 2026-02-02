@@ -6,6 +6,8 @@ import Learning from './components/sections/Learning';
 import Education from './components/sections/Education';
 import Footer from './components/sections/Footer';
 
+import WorkingStyle from './components/sections/WorkingStyle';
+
 function App() {
   return (
     <main>
@@ -15,6 +17,7 @@ function App() {
       <Skills />
       <Learning />
       <Education />
+      <WorkingStyle />
       <Footer />
     </main>
   );

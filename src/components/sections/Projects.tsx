@@ -82,18 +82,28 @@ const CATEGORIES: Category[] = ['All', 'WordPress', 'Shopify', 'Webflow', 'SaaS'
 
 const Projects: React.FC = () => {
     const [activeCategory, setActiveCategory] = useState<Category>('All');
+    const [visibleCount, setVisibleCount] = useState(9); // Initial show count
 
     const filteredProjects = portfolioData.projects.filter(
         (project) => activeCategory === 'All' || project.category === activeCategory
     ).sort((a, b) => {
         if (activeCategory === 'All') {
-            // Sort based on the order of CATEGORIES array
-            // Skip 'All' (index 0), so we use the index directly or adjust if needed.
-            // CATEGORIES = ['All', 'WordPress', 'Shopify', 'SaaS', 'Research', 'Tools & Apps']
             return CATEGORIES.indexOf(a.category) - CATEGORIES.indexOf(b.category);
         }
-        return 0; // Maintain original order for specific categories
+        return 0;
     });
+
+    const visibleProjects = filteredProjects.slice(0, visibleCount);
+
+    // Reset visible count when category changes
+    const handleCategoryChange = (category: Category) => {
+        setActiveCategory(category);
+        setVisibleCount(9);
+    };
+
+    const handleShowMore = () => {
+        setVisibleCount((prev) => prev + 6);
+    };
 
     return (
         <Section id="projects" className={styles.projectsSection}>
@@ -106,7 +116,7 @@ const Projects: React.FC = () => {
                             <button
                                 key={category}
                                 className={`${styles.tab} ${activeCategory === category ? styles.activeTab : ''}`}
-                                onClick={() => setActiveCategory(category)}
+                                onClick={() => handleCategoryChange(category)}
                             >
                                 {category}
                             </button>
@@ -115,10 +125,22 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div className={styles.grid}>
-                    {filteredProjects.map((project) => (
+                    {visibleProjects.map((project) => (
                         <ProjectCard key={project.id} project={project} />
                     ))}
                 </div>
+
+                {visibleCount < filteredProjects.length && (
+                    <div style={{ display: 'flex', justifyContent: 'center', marginTop: 'var(--space-12)' }}>
+                        <Button
+                            variant="outline"
+                            size="lg"
+                            onClick={handleShowMore}
+                        >
+                            Show More Projects
+                        </Button>
+                    </div>
+                )}
             </div>
         </Section>
     );
