@@ -7,11 +7,10 @@
 
 /* Custom Wide Container for Projects */
 .wideContainer {
-    max-width: 100%;
-    /* Full width */
+    max-width: 1600px;
+    /* Reduced from total full width for better card sizing */
     margin: 0 auto;
-    padding: 0 var(--space-8);
-    /* Increased side padding for full width */
+    padding: 0 var(--space-6);
     width: 100%;
 }
 
